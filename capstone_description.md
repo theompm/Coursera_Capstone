@@ -16,7 +16,7 @@ Munich is the capital of bavaria. It is a global centre of:
 - business
 - tourism
 
-Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right borough to live in.
+Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right district to live in.
 
 
 ### Description of the data and how it will be used to solve the problem 
@@ -31,7 +31,7 @@ Including:
 - Borough
 - State
 
-With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of boroughs.
+With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of district.
 
 Get the venues from *Foursquare API* searching by coordinates.
 
