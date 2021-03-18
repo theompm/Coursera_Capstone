@@ -25,11 +25,11 @@ The first dataset is from [https://www.dasoertliche.de](https://www.dasoertliche
 
 Including:
 
-- Postal Code
-- Town Name
-- District
-- Borough
-- State
+- postal Code
+- town Name
+- district
+- borough
+- state
 
 With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of districts.
 
