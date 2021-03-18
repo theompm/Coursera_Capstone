@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### A description of the problem and a discussion of the background
+### Description of the problem and a discussion of the background
 Munich is the capital of bavaria. It is a global centre of:
 
 - art
@@ -16,9 +16,10 @@ Munich is the capital of bavaria. It is a global centre of:
 - business
 - tourism
 
-Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right borough.
+Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right borough to live in.
 
-### A description of the data and how it will be used to solve the problem 
+
+### Description of the data and how it will be used to solve the problem 
 
 The first dataset is from [https://www.dasoertliche.de](https://www.dasoertliche.de/Themen/Postleitzahlen/M%C3%BCnchen.html).
 
@@ -30,8 +31,8 @@ Including:
 - Borough
 - State
 
+With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of boroughs.
 
-With *Nominatim* from the library *geopy.geocoders* you will get the geographical coordinates of the districts.
+Get the venues from *Foursquare API* searching by coordinates.
 
-
-Get the venues from Foursquare API.
+With this data we will create a map and information chart of clusters to solve the problem.
