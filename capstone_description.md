@@ -1,12 +1,24 @@
 # The Battle of Neighborhoods (Week 1)
 
-## A description of the problem and a discussion of the background
+## Introduction
 
-A friend of mine is in searching for a new flat in munich. He asked me helping him making choosing the right disctrict.
+### A description of the problem and a discussion of the background
+Munich is the capital of bavaria. It is a global centre of:
 
-## A description of the data and how it will be used to solve the problem 
+- art
+- science
+- technology
+- finance
+- publishing
+- culture
+- innovation
+- education
+- business
+- tourism
 
-### First set of data 
+Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right borough.
+
+### A description of the data and how it will be used to solve the problem 
 
 The first dataset is from [https://www.dasoertliche.de](https://www.dasoertliche.de/Themen/Postleitzahlen/M%C3%BCnchen.html).
 
@@ -18,9 +30,8 @@ Including:
 - Borough
 - State
 
-### Geographical coordinates
 
 With *Nominatim* from the library *geopy.geocoders* you will get the geographical coordinates of the districts.
 
-### Venues from Foursquare API
 
+Get the venues from Foursquare API.
