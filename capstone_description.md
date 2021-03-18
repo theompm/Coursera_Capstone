@@ -31,7 +31,7 @@ Including:
 - Borough
 - State
 
-With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of district.
+With *Nominatim* from the library *geopy.geocoders* we will get the centered geographical coordinates of districts.
 
 Get the venues from *Foursquare API* searching by coordinates.
 
