@@ -25,8 +25,8 @@ The first dataset is from [https://www.dasoertliche.de](https://www.dasoertliche
 
 Including:
 
-- postal Code
-- town Name
+- postal code
+- town name
 - district
 - borough
 - state
