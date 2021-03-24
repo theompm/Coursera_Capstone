@@ -41,3 +41,13 @@ With *Nominatim* from the library *geopy.geocoders* we will get the centered geo
 Get the venues from *Foursquare API* searching by coordinates.
 
 With this data we will create a map and information chart of clusters to solve the problem.
+
+## Methodology
+
+
+
+## Results
+
+## Discussion
+
+## Conclusion
