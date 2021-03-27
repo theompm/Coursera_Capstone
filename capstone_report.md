@@ -101,7 +101,7 @@ This made the following clusters in decreasing order:
 
 ## 4. Results
 
-### Information chart of clusters
+### 4.1 Information chart of clusters
 
 ![img](img/cluster_map.png)
 
@@ -113,7 +113,7 @@ Legend:
 
 You can see the postal codes to the corresponding clusters in the following tables. 
 
-### 4.1 Postal Codes and wordcloud for Cluster 0 - RED
+### 4.2 Postal Codes and wordcloud for Cluster 0 - RED
 
 |    |   PLZ | address                                                                                                               |
 |---:|------:|:----------------------------------------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_0.png)
 
-### 4.2 Postal Codes and wordcloud for Cluster 1 -  PURPLE
+### 4.3 Postal Codes and wordcloud for Cluster 1 -  PURPLE
 
 |    |   PLZ | address                                                                                 |
 |---:|------:|:----------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_1.png)
 
-### 4.3 Postal Codes and wordcloud for Cluster 2 -  BLUE
+### 4.4 Postal Codes and wordcloud for Cluster 2 -  BLUE
 
 |    |   PLZ | address                                                                                           |
 |---:|------:|:--------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_2.png)
 
-### 4.4 Postal Codes and wordcloud for Cluster 3 - TURQUOISE
+### 4.5 Postal Codes and wordcloud for Cluster 3 - TURQUOISE
 
 |    |   PLZ | address                                                                                                        |
 |---:|------:|:---------------------------------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_3.png)
 
-### 4.5 Postal Code and wordcloud for Cluster 4 -  ORANGE
+### 4.6 Postal Code and wordcloud for Cluster 4 -  ORANGE
 
 |    |   PLZ | address                                                                          |
 |---:|------:|:---------------------------------------------------------------------------------|
