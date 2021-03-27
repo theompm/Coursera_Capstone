@@ -109,7 +109,7 @@ This made the following clusters in decreasing order:
 |:--------|--:|--:|--:|--:|--:|
 | color   |red|puprle|blue|torquoise|orange|
 
-You can see the clusters in the following tables. 
+You can see the postal codes to the corresponding clusters in the following tables. 
 
 ### Postal Codes for Cluster 0 - RED
 
