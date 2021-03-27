@@ -138,6 +138,8 @@ You can see the postal codes to the corresponding clusters in the following tabl
 | 20 | 81677 | Bezirksteil Parkstadt, Bogenhausen, München, Bayern, 81677, Deutschland                                               |
 | 21 | 81737 | Bezirksteil Altperlach, Ramersdorf-Perlach, München, Bayern, 81737, Deutschland                                       |
 
+Wordcloud made of venues categories.
+
 ![img](img/cluster_0.png)
 
 ### Postal Codes and wordcloud for Cluster 1 -  PURPLE
@@ -180,6 +182,8 @@ You can see the postal codes to the corresponding clusters in the following tabl
 | 33 | 81829 | Trudering-Riem, München, Bayern, 81829, Deutschland                                     |
 | 34 | 81925 | Bezirksteil Herzogpark, Bogenhausen, München, Bayern, 81925, Deutschland                |
 
+Wordcloud made of venues categories.
+
 ![img](img/cluster_1.png)
 
 ### Postal Codes and wordcloud for Cluster 2 -  BLUE
@@ -194,6 +198,8 @@ You can see the postal codes to the corresponding clusters in the following tabl
 |  5 | 81827 | Trudering-Riem, München, Bayern, 81827, Deutschland                                               |
 |  6 | 81927 | Bezirksteil Englschalking, Bogenhausen, München, Bayern, 81927, Deutschland                       |
 |  7 | 81929 | Bezirksteil Daglfing, Bogenhausen, München, Bayern, 81929, Deutschland                            |
+
+Wordcloud made of venues categories.
 
 ![img](img/cluster_2.png)
 
@@ -210,6 +216,8 @@ You can see the postal codes to the corresponding clusters in the following tabl
 |  6 | 81735 | Bezirksteil Neuperlach, Ramersdorf-Perlach, München, Bayern, 81735, Deutschland                                |
 |  7 | 81825 | Trudering-Riem, München, Bayern, 81825, Deutschland                                                            |
 
+Wordcloud made of venues categories.
+
 ![img](img/cluster_3.png)
 
 ### Postal Code and wordcloud for Cluster 4 -  ORANGE
@@ -217,6 +225,8 @@ You can see the postal codes to the corresponding clusters in the following tabl
 |    |   PLZ | address                                                                          |
 |---:|------:|:---------------------------------------------------------------------------------|
 |  0 | 81739 | Bezirksteil Waldperlach, Ramersdorf-Perlach, München, Bayern, 81739, Deutschland |
+
+Wordcloud made of venues categories.
 
 ![img](img/cluster_4.png)
 
