@@ -105,6 +105,8 @@ This made the following clusters in decreasing order:
 
 ![img](img/cluster_map.png)
 
+Legend:
+
 | Cluster | 0 | 1 | 2 | 3 | 4 |
 |:--------|--:|--:|--:|--:|--:|
 | color   |red|purple|blue|torquoise|orange|
@@ -232,6 +234,8 @@ Wordcloud made of venues categories.
 
 ## Discussion
 
-
+The results above give a nice overview about the different districts. Nevertheless the best helping visualization is the map of clusters in connection with the wordclouds.
 
 ## Conclusion
+
+The friend of mine has now a nice collection of information. With the help of this collection he will be able to choose the right district to life in.
