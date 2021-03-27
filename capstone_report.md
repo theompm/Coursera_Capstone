@@ -58,11 +58,22 @@ The next code creates a new column *location*.
 ```python
 df['location'] = df.Bundesland + ', ' + df.Ortsname + ', ' + df.PLZ.astype(str)
 ```
-Output first table row:
+Possible output of column *location*:
 
 `Bayern, München, 80331`
 
 With *Nominatim* through the library *geopandas* we will get the centered geographical coordinates of districts.
+
+```python
+import geopandas as gpd
+
+user_agent = 'coursera_capstone_munich'
+
+gdf = gpd.tools.geocode(df.location, provider='nominatim', user_agent=user_agent)
+```
+|geometry|address|
+|--------|-------|
+|POINT (11.57344 48.13606)|Altstadt-Lehel, München, Bayern, 80331, Deutschland|
 
 Get the venues from *Foursquare API* searching by coordinates.
 
@@ -70,7 +81,7 @@ With this data we will create a map and information chart of clusters to solve t
 
 ### Data Cleaning
 
-Following rows were selected by including *Stadt München* and excluding *Flughafen-München*.
+The following rows were selected by including *Stadt München* and excluding *Flughafen-München*.
 
 ```python
 df = df.loc[df.Landkreis == 'Stadt München']
@@ -78,6 +89,8 @@ df = df.loc[~(df.Ortsname == 'München-Flughafen')].reset_index(drop=True)
 ```
 
 ## Methodology
+
+
 
 ## Results
 
