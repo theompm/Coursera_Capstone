@@ -6,7 +6,7 @@ Matthäus Morhart
   
 March 2021
 
-## Introduction
+## 1. Introduction
 
 Munich is the capital of bavaria. It is a global centre of:
 
@@ -24,9 +24,9 @@ Munich is the capital of bavaria. It is a global centre of:
 Because of these attributes a friend of mine decided moving to munich. He asked me helping him choosing the right district to live in.
 
 
-## Data
+## 2. Data
 
-### Data Sources
+### 2.1 Data Sources
 The first dataset is from [https://www.dasoertliche.de](https://www.dasoertliche.de/Themen/Postleitzahlen/M%C3%BCnchen.html).
 
 Including:
@@ -79,7 +79,7 @@ Get the venues from *Foursquare API* searching by coordinates.
 
 With this data we will create a map and information chart of clusters to solve the problem.
 
-### Data Cleaning
+### 2.2 Data Cleaning
 
 The following rows were selected by including *Stadt München* and excluding *Flughafen-München*.
 
@@ -88,7 +88,7 @@ df = df.loc[df.Landkreis == 'Stadt München']
 df = df.loc[~(df.Ortsname == 'München-Flughafen')].reset_index(drop=True)
 ```
 
-## Methodology
+## 3. Methodology
 
 After merging all dataframes and using OneHotEncoder to binarize the venues categories, we used *KMeans* from *sklearn.cluster* to cluster the entries into 5 clusters.
 
@@ -99,7 +99,7 @@ This made the following clusters in decreasing order:
 | n |  35 |  22 |   8 |   8 |   1 |
 
 
-## Results
+## 4. Results
 
 ### Information chart of clusters
 
@@ -109,11 +109,11 @@ Legend:
 
 | Cluster | 0 | 1 | 2 | 3 | 4 |
 |:--------|--:|--:|--:|--:|--:|
-| color   |red|purple|blue|torquoise|orange|
+| color   |red|purple|blue|turquoise|orange|
 
 You can see the postal codes to the corresponding clusters in the following tables. 
 
-### Postal Codes and wordcloud for Cluster 0 - RED
+### 4.1 Postal Codes and wordcloud for Cluster 0 - RED
 
 |    |   PLZ | address                                                                                                               |
 |---:|------:|:----------------------------------------------------------------------------------------------------------------------|
@@ -144,7 +144,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_0.png)
 
-### Postal Codes and wordcloud for Cluster 1 -  PURPLE
+### 4.2 Postal Codes and wordcloud for Cluster 1 -  PURPLE
 
 |    |   PLZ | address                                                                                 |
 |---:|------:|:----------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_1.png)
 
-### Postal Codes and wordcloud for Cluster 2 -  BLUE
+### 4.3 Postal Codes and wordcloud for Cluster 2 -  BLUE
 
 |    |   PLZ | address                                                                                           |
 |---:|------:|:--------------------------------------------------------------------------------------------------|
@@ -205,7 +205,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_2.png)
 
-### Postal Codes and wordcloud for Cluster 3 - TURQUOISE
+### 4.4 Postal Codes and wordcloud for Cluster 3 - TURQUOISE
 
 |    |   PLZ | address                                                                                                        |
 |---:|------:|:---------------------------------------------------------------------------------------------------------------|
@@ -222,7 +222,7 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_3.png)
 
-### Postal Code and wordcloud for Cluster 4 -  ORANGE
+### 4.5 Postal Code and wordcloud for Cluster 4 -  ORANGE
 
 |    |   PLZ | address                                                                          |
 |---:|------:|:---------------------------------------------------------------------------------|
@@ -232,10 +232,10 @@ Wordcloud made of venues categories.
 
 ![img](img/cluster_4.png)
 
-## Discussion
+## 5. Discussion
 
 The results above give a nice overview about the different districts. Nevertheless the best helping visualization is the map of clusters in connection with the wordclouds.
 
-## Conclusion
+## 6. Conclusion
 
 The friend of mine has now a nice collection of information. With the help of this collection he will be able to choose the right district to life in.
