@@ -90,6 +90,13 @@ df = df.loc[~(df.Ortsname == 'München-Flughafen')].reset_index(drop=True)
 
 ## Methodology
 
+After merging all dataframes and using OneHotEncoder to binarize the venues categories, we used *KMeans* from *sklearn.cluster* to cluster the entries into 5 clusters.
+
+This made the following clusters in decreasing order:
+
+|Cluster Labels    |   1 |   0 |   2 |   3 |   4 |
+|:---------------|----:|----:|----:|----:|----:|
+| n |  35 |  22 |   8 |   8 |   1 |
 
 
 ## Results
