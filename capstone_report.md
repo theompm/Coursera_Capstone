@@ -75,7 +75,7 @@ gdf = gpd.tools.geocode(df.location, provider='nominatim', user_agent=user_agent
 |--------|-------|
 |POINT (11.57344 48.13606)|Altstadt-Lehel, München, Bayern, 80331, Deutschland|
 
-Get the venues from *Foursquare API* searching by coordinates.
+Get the venues from *Foursquare API* searching by coordinates within a radius of 500 meters.
 
 With this data we will create a map and information chart of clusters to solve the problem.
 
